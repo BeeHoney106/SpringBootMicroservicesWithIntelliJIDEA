@@ -22,6 +22,10 @@ public class PlantDiaryController {
         return "start";
     }
 
+    /*
+    This is to ge a specimen
+     */
+
     @GetMapping("/specimen")
     public ResponseEntity fetchAllSpecimens(){
         return new ResponseEntity(HttpStatus.OK);
