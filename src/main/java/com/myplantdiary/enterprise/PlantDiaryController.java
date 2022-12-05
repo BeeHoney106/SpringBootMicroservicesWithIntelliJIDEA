@@ -28,7 +28,9 @@ public class PlantDiaryController {
     }
 
     /*
-    * */
+
+    This is to create a specimen
+     */
     @PostMapping(value = "/specimen")
     public Specimen createSpecimen(@RequestBody Specimen specimen){
         return specimen;
