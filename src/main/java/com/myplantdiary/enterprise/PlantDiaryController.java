@@ -8,6 +8,11 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 
+/*
+
+    This is application controller
+ */
+
 @Controller
 public class PlantDiaryController {
 
