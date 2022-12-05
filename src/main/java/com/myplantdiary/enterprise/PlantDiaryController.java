@@ -8,6 +8,11 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 
+/*
+
+    This is application controller
+ */
+
 @Controller
 public class PlantDiaryController {
 
@@ -16,6 +21,10 @@ public class PlantDiaryController {
         Specimen specimen = new Specimen();
         return "start";
     }
+
+    /*
+    This is to ge a specimen
+     */
 
     @GetMapping("/specimen")
     public ResponseEntity fetchAllSpecimens(){
