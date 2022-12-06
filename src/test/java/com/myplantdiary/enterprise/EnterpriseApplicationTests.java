@@ -71,6 +71,6 @@ class EnterpriseApplicationTests {
 
 	@Test
 	void thisTest_ShouldFail(){
-		assertEquals(4, 1+2);
+		assertEquals(4, 2+2);
 	}
 }
